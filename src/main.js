@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
+import App from './app.jsx';
 
 var appElement = document.getElementById("app");
 
-appElement.content = "hello world";
 
 if(appElement != null) {
-	console.log("hi");
+	//ReactDOM.render("hello", appElement);
+	ReactDOM.render(<App />, appElement);
+
 }
 
-ReactDOM.render(<App/>, appElement);

@@ -1,10 +1,11 @@
 {
-  "name": "home-page",
+  "name": "task-manager",
   "version": "1.0.0",
   "description": "A web browser home page to manage tasks and to-do's",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base build/ --hot"
   },
   "author": "Lochlan Brick",
   "license": "ISC",

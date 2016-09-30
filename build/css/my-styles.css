@@ -1,0 +1,28 @@
+.task-header {
+	float:left;
+}
+
+.date-header {
+	float:right;
+}
+
+.task-text {
+	float:left;
+}
+
+.task-date {
+	float:right;
+}
+
+.complete-task-btn {
+	float:left;
+}
+
+.complete-task-header {
+	float:left;
+}
+
+.clear {
+	clear:left;
+	clear:right;
+}
